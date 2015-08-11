@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pgaBottomRightCoord</key>
+	<string>{25.315, 122.01}</string>
+	<key>pgaTopLeftCoord</key>
+	<string>{21.885,120.03}</string>
+	<key>pgvBottomRightCoord</key>
+	<string>{25.45, 122.17}</string>
+	<key>pgvTopLeftCoord</key>
+	<string>{21.67,119.71}</string>
+	<key>cwbBottomRightCoord</key>
+	<string>{26.45, 123.20}</string>
+	<key>cwbTopLeftCoord</key>
+	<string>{19.7,118.28}</string>
+</dict>
+</plist>

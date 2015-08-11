@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411304991B26D4CC00A03710 /* IntensityMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411304981B26D4CC00A03710 /* IntensityMapAnnotation.swift */; };
+		4113049B1B26D54B00A03710 /* IntensityMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113049A1B26D54B00A03710 /* IntensityMapAnnotationView.swift */; };
+		4113049D1B26DCEE00A03710 /* IntensityMapOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113049C1B26DCEE00A03710 /* IntensityMapOverlayRenderer.swift */; };
+		4113049F1B26DD1400A03710 /* IntensityMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4113049E1B26DD1400A03710 /* IntensityMapOverlay.swift */; };
+		4117D8EC1B26CA7A0074F662 /* intensityMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4117D8EB1B26CA7A0074F662 /* intensityMap.plist */; };
+		4160FD971AE10D8F0092C02C /* fault2014_convert_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4160FD961AE10D8F0092C02C /* fault2014_convert_2.txt */; };
+		416C8ABE1AE63B5300DE7B94 /* LegendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416C8ABD1AE63B5300DE7B94 /* LegendViewController.swift */; };
+		416C8AC01AE64B5100DE7B94 /* EQMapSwitchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416C8ABF1AE64B5100DE7B94 /* EQMapSwitchTableViewController.swift */; };
+		417E3D0A1B539406002ECE2D /* MLRangePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417E3D091B539406002ECE2D /* MLRangePickerViewController.swift */; };
+		417E3D0C1B539695002ECE2D /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417E3D0B1B539695002ECE2D /* SettingTableViewController.swift */; };
+		4189DEE21B1ED22C00042D6A /* MyVolleyballAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4189DEE11B1ED22C00042D6A /* MyVolleyballAnnotation.swift */; };
+		419CF07D1B1D9B33007B502E /* MapViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419CF07C1B1D9B33007B502E /* MapViewSetting.swift */; };
+		41A4C3121AE4C51500B4CC35 /* MyPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A4C3111AE4C51500B4CC35 /* MyPointAnnotation.swift */; };
+		41ABB6931B2823A200D0C429 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABB6921B2823A200D0C429 /* DatePickerViewController.swift */; };
+		C0010F981AC5254B006F8E88 /* GeoMapTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0010F971AC5254B006F8E88 /* GeoMapTileOverlay.swift */; };
+		C05501FF1AB1661800C51B91 /* EQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05501FE1AB1661800C51B91 /* EQViewController.swift */; };
+		C0F0ACEF1AD63CEA00CF38F7 /* SeisMapTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F0ACEE1AD63CEA00CF38F7 /* SeisMapTileOverlay.swift */; };
+		C0F0ACF31AD6415700CF38F7 /* S01R_2007.S0.5_2 in Resources */ = {isa = PBXBuildFile; fileRef = C0F0ACF11AD6415700CF38F7 /* S01R_2007.S0.5_2 */; };
+		C0F104811ADF6B4E002CB522 /* FaultPolylineOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F104801ADF6B4E002CB522 /* FaultPolylineOverlay.swift */; };
+		E12FC6331A80B748000E0804 /* ConstantVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12FC6321A80B748000E0804 /* ConstantVariables.swift */; };
+		E13619361A0B47390084184B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13619351A0B47390084184B /* AppDelegate.swift */; };
+		E13619391A0B47390084184B /* TESIS_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E13619371A0B47390084184B /* TESIS_swift.xcdatamodeld */; };
+		E136193E1A0B47390084184B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E136193C1A0B47390084184B /* Main.storyboard */; };
+		E13619401A0B47390084184B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E136193F1A0B47390084184B /* Images.xcassets */; };
+		E13619431A0B47390084184B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E13619411A0B47390084184B /* LaunchScreen.xib */; };
+		E136194F1A0B47390084184B /* TESIS_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E136194E1A0B47390084184B /* TESIS_swiftTests.swift */; };
+		E13619591A0B58410084184B /* DownloadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13619581A0B58410084184B /* DownloadSessionDelegate.swift */; };
+		E160DE941A5E62B3003222FC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E160DE931A5E62B3003222FC /* Cartfile */; };
+		E160DE961A5E6678003222FC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E160DE951A5E6678003222FC /* SwiftyJSON.swift */; };
+		E16E43BA1A84A98C00E8E804 /* EarthquakeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E43B91A84A98C00E8E804 /* EarthquakeItem.swift */; };
+		E1ACB90E1A6CAE65008DE82B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1ACB90D1A6CAE65008DE82B /* MapKit.framework */; };
+		E1B6AA1D1A8873CE00BDF5F9 /* Taiwan_center.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E1B6AA1C1A8873CE00BDF5F9 /* Taiwan_center.gpx */; };
+		E1D4D41C1A91BA9D0065FF20 /* Image in Resources */ = {isa = PBXBuildFile; fileRef = E1D4D41B1A91BA9D0065FF20 /* Image */; };
+		E1E5267F1A639BCA00197CE5 /* EarthquakeFileURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E5267E1A639BCA00197CE5 /* EarthquakeFileURL.swift */; };
+		E1E526851A63ABE300197CE5 /* EarthquakeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E526841A63ABE300197CE5 /* EarthquakeTableViewController.swift */; };
+		E1FAEE7B1A8476E100CAD8E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FAEE7A1A8476E100CAD8E5 /* CoreLocation.framework */; };
+		E1FAEE7D1A8476E900CAD8E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FAEE7C1A8476E900CAD8E5 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E13619491A0B47390084184B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E13619281A0B47390084184B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E136192F1A0B47390084184B;
+			remoteInfo = TESIS.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		411304981B26D4CC00A03710 /* IntensityMapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityMapAnnotation.swift; sourceTree = "<group>"; };
+		4113049A1B26D54B00A03710 /* IntensityMapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityMapAnnotationView.swift; sourceTree = "<group>"; };
+		4113049C1B26DCEE00A03710 /* IntensityMapOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityMapOverlayRenderer.swift; sourceTree = "<group>"; };
+		4113049E1B26DD1400A03710 /* IntensityMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityMapOverlay.swift; sourceTree = "<group>"; };
+		4117D8EB1B26CA7A0074F662 /* intensityMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = intensityMap.plist; sourceTree = "<group>"; };
+		4160FD961AE10D8F0092C02C /* fault2014_convert_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fault2014_convert_2.txt; sourceTree = "<group>"; };
+		416C8ABD1AE63B5300DE7B94 /* LegendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegendViewController.swift; sourceTree = "<group>"; };
+		416C8ABF1AE64B5100DE7B94 /* EQMapSwitchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EQMapSwitchTableViewController.swift; sourceTree = "<group>"; };
+		417E3D091B539406002ECE2D /* MLRangePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLRangePickerViewController.swift; sourceTree = "<group>"; };
+		417E3D0B1B539695002ECE2D /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		4189DEE11B1ED22C00042D6A /* MyVolleyballAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyVolleyballAnnotation.swift; sourceTree = "<group>"; };
+		419CF07C1B1D9B33007B502E /* MapViewSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewSetting.swift; sourceTree = "<group>"; };
+		41A4C3111AE4C51500B4CC35 /* MyPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyPointAnnotation.swift; path = ../MyPointAnnotation.swift; sourceTree = "<group>"; };
+		41ABB6921B2823A200D0C429 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		C0010F971AC5254B006F8E88 /* GeoMapTileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoMapTileOverlay.swift; sourceTree = "<group>"; };
+		C05501FE1AB1661800C51B91 /* EQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EQViewController.swift; sourceTree = "<group>"; };
+		C0F0ACEE1AD63CEA00CF38F7 /* SeisMapTileOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeisMapTileOverlay.swift; sourceTree = "<group>"; };
+		C0F0ACF11AD6415700CF38F7 /* S01R_2007.S0.5_2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = S01R_2007.S0.5_2; sourceTree = "<group>"; };
+		C0F104801ADF6B4E002CB522 /* FaultPolylineOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaultPolylineOverlay.swift; sourceTree = "<group>"; };
+		E12FC6321A80B748000E0804 /* ConstantVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantVariables.swift; sourceTree = "<group>"; };
+		E13619301A0B47390084184B /* TESIS.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESIS.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13619341A0B47390084184B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13619351A0B47390084184B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E13619381A0B47390084184B /* TESIS_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TESIS_swift.xcdatamodel; sourceTree = "<group>"; };
+		E136193D1A0B47390084184B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E136193F1A0B47390084184B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E13619421A0B47390084184B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E13619481A0B47390084184B /* TESIS.swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESIS.swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E136194D1A0B47390084184B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E136194E1A0B47390084184B /* TESIS_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESIS_swiftTests.swift; sourceTree = "<group>"; };
+		E13619581A0B58410084184B /* DownloadSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadSessionDelegate.swift; sourceTree = "<group>"; };
+		E160DE931A5E62B3003222FC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E160DE951A5E6678003222FC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		E16E43B91A84A98C00E8E804 /* EarthquakeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthquakeItem.swift; sourceTree = "<group>"; };
+		E1ACB90D1A6CAE65008DE82B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E1B6AA1C1A8873CE00BDF5F9 /* Taiwan_center.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Taiwan_center.gpx; sourceTree = "<group>"; };
+		E1D4D41B1A91BA9D0065FF20 /* Image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Image; sourceTree = "<group>"; };
+		E1E5267E1A639BCA00197CE5 /* EarthquakeFileURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarthquakeFileURL.swift; path = ../EarthquakeFileURL.swift; sourceTree = "<group>"; };
+		E1E526841A63ABE300197CE5 /* EarthquakeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarthquakeTableViewController.swift; path = ../EarthquakeTableViewController.swift; sourceTree = "<group>"; };
+		E1FAEE7A1A8476E100CAD8E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E1FAEE7C1A8476E900CAD8E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E136192D1A0B47390084184B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FAEE7D1A8476E900CAD8E5 /* CoreData.framework in Frameworks */,
+				E1FAEE7B1A8476E100CAD8E5 /* CoreLocation.framework in Frameworks */,
+				E1ACB90E1A6CAE65008DE82B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13619451A0B47390084184B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417E3D0D1B5396C8002ECE2D /* MapOverlays */ = {
+			isa = PBXGroup;
+			children = (
+				C0F0ACEE1AD63CEA00CF38F7 /* SeisMapTileOverlay.swift */,
+				C0010F971AC5254B006F8E88 /* GeoMapTileOverlay.swift */,
+				C0F104801ADF6B4E002CB522 /* FaultPolylineOverlay.swift */,
+				41A4C3111AE4C51500B4CC35 /* MyPointAnnotation.swift */,
+				411304981B26D4CC00A03710 /* IntensityMapAnnotation.swift */,
+				4113049A1B26D54B00A03710 /* IntensityMapAnnotationView.swift */,
+				4113049C1B26DCEE00A03710 /* IntensityMapOverlayRenderer.swift */,
+				4113049E1B26DD1400A03710 /* IntensityMapOverlay.swift */,
+				4117D8EB1B26CA7A0074F662 /* intensityMap.plist */,
+				4189DEE11B1ED22C00042D6A /* MyVolleyballAnnotation.swift */,
+			);
+			name = MapOverlays;
+			sourceTree = "<group>";
+		};
+		417E3D0E1B5396F8002ECE2D /* EarthquakeData */ = {
+			isa = PBXGroup;
+			children = (
+				E13619581A0B58410084184B /* DownloadSessionDelegate.swift */,
+				E16E43B91A84A98C00E8E804 /* EarthquakeItem.swift */,
+				E1E5267E1A639BCA00197CE5 /* EarthquakeFileURL.swift */,
+			);
+			name = EarthquakeData;
+			sourceTree = "<group>";
+		};
+		E12FC62B1A7B4E1C000E0804 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		E13619271A0B47390084184B = {
+			isa = PBXGroup;
+			children = (
+				E1B6AA1C1A8873CE00BDF5F9 /* Taiwan_center.gpx */,
+				E1FAEE7C1A8476E900CAD8E5 /* CoreData.framework */,
+				E1FAEE7A1A8476E100CAD8E5 /* CoreLocation.framework */,
+				E1ACB90D1A6CAE65008DE82B /* MapKit.framework */,
+				E160DE931A5E62B3003222FC /* Cartfile */,
+				E13619321A0B47390084184B /* TESIS.swift */,
+				E136194B1A0B47390084184B /* TESIS.swiftTests */,
+				E13619311A0B47390084184B /* Products */,
+				E160DE951A5E6678003222FC /* SwiftyJSON.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		E13619311A0B47390084184B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E13619301A0B47390084184B /* TESIS.swift.app */,
+				E13619481A0B47390084184B /* TESIS.swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E13619321A0B47390084184B /* TESIS.swift */ = {
+			isa = PBXGroup;
+			children = (
+				E1D4D41B1A91BA9D0065FF20 /* Image */,
+				E12FC62B1A7B4E1C000E0804 /* CoreData */,
+				E13619351A0B47390084184B /* AppDelegate.swift */,
+				E12FC6321A80B748000E0804 /* ConstantVariables.swift */,
+				417E3D0D1B5396C8002ECE2D /* MapOverlays */,
+				417E3D0E1B5396F8002ECE2D /* EarthquakeData */,
+				41ABB6921B2823A200D0C429 /* DatePickerViewController.swift */,
+				417E3D091B539406002ECE2D /* MLRangePickerViewController.swift */,
+				417E3D0B1B539695002ECE2D /* SettingTableViewController.swift */,
+				419CF07C1B1D9B33007B502E /* MapViewSetting.swift */,
+				E1E526841A63ABE300197CE5 /* EarthquakeTableViewController.swift */,
+				C05501FE1AB1661800C51B91 /* EQViewController.swift */,
+				416C8ABF1AE64B5100DE7B94 /* EQMapSwitchTableViewController.swift */,
+				416C8ABD1AE63B5300DE7B94 /* LegendViewController.swift */,
+				4160FD961AE10D8F0092C02C /* fault2014_convert_2.txt */,
+				C0F0ACF11AD6415700CF38F7 /* S01R_2007.S0.5_2 */,
+				E136193C1A0B47390084184B /* Main.storyboard */,
+				E13619411A0B47390084184B /* LaunchScreen.xib */,
+				E136193F1A0B47390084184B /* Images.xcassets */,
+				E13619371A0B47390084184B /* TESIS_swift.xcdatamodeld */,
+				E13619331A0B47390084184B /* Supporting Files */,
+			);
+			path = TESIS.swift;
+			sourceTree = "<group>";
+		};
+		E13619331A0B47390084184B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E13619341A0B47390084184B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E136194B1A0B47390084184B /* TESIS.swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E136194E1A0B47390084184B /* TESIS_swiftTests.swift */,
+				E136194C1A0B47390084184B /* Supporting Files */,
+			);
+			path = TESIS.swiftTests;
+			sourceTree = "<group>";
+		};
+		E136194C1A0B47390084184B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E136194D1A0B47390084184B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E136192F1A0B47390084184B /* TESIS.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13619521A0B47390084184B /* Build configuration list for PBXNativeTarget "TESIS.swift" */;
+			buildPhases = (
+				E136192C1A0B47390084184B /* Sources */,
+				E136192D1A0B47390084184B /* Frameworks */,
+				E136192E1A0B47390084184B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TESIS.swift;
+			productName = TESIS.swift;
+			productReference = E13619301A0B47390084184B /* TESIS.swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E13619471A0B47390084184B /* TESIS.swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13619551A0B47390084184B /* Build configuration list for PBXNativeTarget "TESIS.swiftTests" */;
+			buildPhases = (
+				E13619441A0B47390084184B /* Sources */,
+				E13619451A0B47390084184B /* Frameworks */,
+				E13619461A0B47390084184B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E136194A1A0B47390084184B /* PBXTargetDependency */,
+			);
+			name = TESIS.swiftTests;
+			productName = TESIS.swiftTests;
+			productReference = E13619481A0B47390084184B /* TESIS.swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13619281A0B47390084184B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rose-Air";
+				TargetAttributes = {
+					E136192F1A0B47390084184B = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E13619471A0B47390084184B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E136192F1A0B47390084184B;
+					};
+				};
+			};
+			buildConfigurationList = E136192B1A0B47390084184B /* Build configuration list for PBXProject "TESIS.swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E13619271A0B47390084184B;
+			productRefGroup = E13619311A0B47390084184B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E136192F1A0B47390084184B /* TESIS.swift */,
+				E13619471A0B47390084184B /* TESIS.swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E136192E1A0B47390084184B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4160FD971AE10D8F0092C02C /* fault2014_convert_2.txt in Resources */,
+				E1D4D41C1A91BA9D0065FF20 /* Image in Resources */,
+				E136193E1A0B47390084184B /* Main.storyboard in Resources */,
+				C0F0ACF31AD6415700CF38F7 /* S01R_2007.S0.5_2 in Resources */,
+				4117D8EC1B26CA7A0074F662 /* intensityMap.plist in Resources */,
+				E13619431A0B47390084184B /* LaunchScreen.xib in Resources */,
+				E1B6AA1D1A8873CE00BDF5F9 /* Taiwan_center.gpx in Resources */,
+				E160DE941A5E62B3003222FC /* Cartfile in Resources */,
+				E13619401A0B47390084184B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13619461A0B47390084184B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E136192C1A0B47390084184B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417E3D0C1B539695002ECE2D /* SettingTableViewController.swift in Sources */,
+				41A4C3121AE4C51500B4CC35 /* MyPointAnnotation.swift in Sources */,
+				416C8AC01AE64B5100DE7B94 /* EQMapSwitchTableViewController.swift in Sources */,
+				4113049D1B26DCEE00A03710 /* IntensityMapOverlayRenderer.swift in Sources */,
+				E12FC6331A80B748000E0804 /* ConstantVariables.swift in Sources */,
+				41ABB6931B2823A200D0C429 /* DatePickerViewController.swift in Sources */,
+				411304991B26D4CC00A03710 /* IntensityMapAnnotation.swift in Sources */,
+				C05501FF1AB1661800C51B91 /* EQViewController.swift in Sources */,
+				417E3D0A1B539406002ECE2D /* MLRangePickerViewController.swift in Sources */,
+				E16E43BA1A84A98C00E8E804 /* EarthquakeItem.swift in Sources */,
+				C0F104811ADF6B4E002CB522 /* FaultPolylineOverlay.swift in Sources */,
+				419CF07D1B1D9B33007B502E /* MapViewSetting.swift in Sources */,
+				4113049F1B26DD1400A03710 /* IntensityMapOverlay.swift in Sources */,
+				416C8ABE1AE63B5300DE7B94 /* LegendViewController.swift in Sources */,
+				E13619391A0B47390084184B /* TESIS_swift.xcdatamodeld in Sources */,
+				E13619361A0B47390084184B /* AppDelegate.swift in Sources */,
+				4189DEE21B1ED22C00042D6A /* MyVolleyballAnnotation.swift in Sources */,
+				C0010F981AC5254B006F8E88 /* GeoMapTileOverlay.swift in Sources */,
+				C0F0ACEF1AD63CEA00CF38F7 /* SeisMapTileOverlay.swift in Sources */,
+				4113049B1B26D54B00A03710 /* IntensityMapAnnotationView.swift in Sources */,
+				E1E526851A63ABE300197CE5 /* EarthquakeTableViewController.swift in Sources */,
+				E160DE961A5E6678003222FC /* SwiftyJSON.swift in Sources */,
+				E1E5267F1A639BCA00197CE5 /* EarthquakeFileURL.swift in Sources */,
+				E13619591A0B58410084184B /* DownloadSessionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13619441A0B47390084184B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E136194F1A0B47390084184B /* TESIS_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E136194A1A0B47390084184B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E136192F1A0B47390084184B /* TESIS.swift */;
+			targetProxy = E13619491A0B47390084184B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E136193C1A0B47390084184B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E136193D1A0B47390084184B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E13619411A0B47390084184B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E13619421A0B47390084184B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E13619501A0B47390084184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E13619511A0B47390084184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E13619531A0B47390084184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TESIS.swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E13619541A0B47390084184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TESIS.swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E13619561A0B47390084184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TESIS.swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TESIS.swift.app/TESIS.swift";
+			};
+			name = Debug;
+		};
+		E13619571A0B47390084184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TESIS.swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TESIS.swift.app/TESIS.swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E136192B1A0B47390084184B /* Build configuration list for PBXProject "TESIS.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13619501A0B47390084184B /* Debug */,
+				E13619511A0B47390084184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13619521A0B47390084184B /* Build configuration list for PBXNativeTarget "TESIS.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13619531A0B47390084184B /* Debug */,
+				E13619541A0B47390084184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13619551A0B47390084184B /* Build configuration list for PBXNativeTarget "TESIS.swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13619561A0B47390084184B /* Debug */,
+				E13619571A0B47390084184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E13619371A0B47390084184B /* TESIS_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E13619381A0B47390084184B /* TESIS_swift.xcdatamodel */,
+			);
+			currentVersion = E13619381A0B47390084184B /* TESIS_swift.xcdatamodel */;
+			path = TESIS_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E13619281A0B47390084184B /* Project object */;
+}

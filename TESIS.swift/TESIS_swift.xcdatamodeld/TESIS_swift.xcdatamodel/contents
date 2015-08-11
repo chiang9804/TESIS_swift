@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EarthquakeItem" representedClassName="TESIS_swift.EarthquakeItem" syncable="YES">
+        <attribute name="ball_AutoBATS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ball_BATS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ball_FMNEAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ball_gCap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cwb_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="depth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="distanceText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNew" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_cwb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_pga" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_pgv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ml" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EarthquakeItem2" representedClassName="TESIS_swift.EarthquakeItem" syncable="YES">
+        <attribute name="ball_AutoBATS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ball_BATS" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ball_FMNEAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ball_gCap" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cwb_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="depth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="distanceText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNew" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_cwb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_pga" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="map_pgv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ml" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MapViewSetting" representedClassName="TESIS_swift.MapViewSetting" syncable="YES">
+        <attribute name="ballSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="ballType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="faultSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="geoMapSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="historicMapSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="intensitySwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="intensityType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="intersesmicSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="satelliteSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EarthquakeItem" positionX="-63" positionY="-18" width="128" height="330"/>
+        <element name="MapViewSetting" positionX="-63" positionY="126" width="128" height="180"/>
+        <element name="EarthquakeItem2" positionX="-63" positionY="126" width="128" height="330"/>
+    </elements>
+</model>
